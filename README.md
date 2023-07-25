@@ -3,3 +3,4 @@ Content Security Policy (CSP) is an added layer of security that helps to detect
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - https://dotnetthoughts.net/implementing-content-security-policy-in-aspnetcore/
 - https://code-maze.com/aspnetcore-content-security-policy/
+- https://www.meziantou.net/security-headers-in-asp-net-core.htm
