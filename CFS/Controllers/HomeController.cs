@@ -23,13 +23,6 @@ namespace CFS.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult CSPReport([FromBody] CspReportRequest cspReportRequest)
-        {
-            _logger.LogWarning(@$"CSP Violation: {cspReportRequest.CspReport.DocumentUri}, {cspReportRequest.CspReport.BlockedUri}"); 
-            return Ok();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
